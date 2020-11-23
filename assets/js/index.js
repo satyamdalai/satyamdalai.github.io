@@ -74,3 +74,13 @@
   //     });
   // });
 })(jQuery); // End of use strict
+
+// const el = document.getElementById("skill-btn");
+// el.addEventListener("click", function () {
+//   const skill = document.getElementById("skill-div");
+//   if (skill.classList.contains("d-none")) {
+//     skill.classList.remove("d-none");
+//   } else {
+//     skill.classList.add("d-none");
+//   }
+// });
