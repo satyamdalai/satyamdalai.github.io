@@ -57,20 +57,30 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  // Floating label headings for the contact form
-  $(function () {
-    $("body")
-      .on("input propertychange", ".floating-label-form-group", function (e) {
-        $(this).toggleClass(
-          "floating-label-form-group-with-value",
-          !!$(e.target).val()
-        );
-      })
-      .on("focus", ".floating-label-form-group", function () {
-        $(this).addClass("floating-label-form-group-with-focus");
-      })
-      .on("blur", ".floating-label-form-group", function () {
-        $(this).removeClass("floating-label-form-group-with-focus");
-      });
-  });
+  // // Floating label headings for the contact form
+  // $(function () {
+  //   $("body")
+  //     .on("input propertychange", ".floating-label-form-group", function (e) {
+  //       $(this).toggleClass(
+  //         "floating-label-form-group-with-value",
+  //         !!$(e.target).val()
+  //       );
+  //     })
+  //     .on("focus", ".floating-label-form-group", function () {
+  //       $(this).addClass("floating-label-form-group-with-focus");
+  //     })
+  //     .on("blur", ".floating-label-form-group", function () {
+  //       $(this).removeClass("floating-label-form-group-with-focus");
+  //     });
+  // });
 })(jQuery); // End of use strict
+
+// const el = document.getElementById("skill-btn");
+// el.addEventListener("click", function () {
+//   const skill = document.getElementById("skill-div");
+//   if (skill.classList.contains("d-none")) {
+//     skill.classList.remove("d-none");
+//   } else {
+//     skill.classList.add("d-none");
+//   }
+// });
